@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AMSAT")(type "KiCad")(uri "D:/DATA/KiCAD/Lab612/Ground_Station_SR105U/Symbols_Footprints/AMSAT_2.0.pretty")(options "")(descr ""))
+  (lib (name "VST104")(type "KiCad")(uri "D:/DATA/KiCAD/Lab612/Ground_Station_SR105U/Symbols_Footprints/VST104_footprints.pretty")(options "")(descr ""))
+)

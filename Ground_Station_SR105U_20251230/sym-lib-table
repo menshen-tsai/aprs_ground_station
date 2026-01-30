@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AMSAT")(type "KiCad")(uri "D:/DATA/KiCAD/Lab612/Ground_Station_SR105U/Symbols_Footprints/AMSAT_2.0.kicad_sym")(options "")(descr ""))
+  (lib (name "Basic")(type "KiCad")(uri "D:/DATA/KiCAD/Lab612/Ground_Station_SR105U/Symbols_Footprints/Basic.kicad_sym")(options "")(descr ""))
+  (lib (name "VST104")(type "KiCad")(uri "D:/DATA/KiCAD/Lab612/Ground_Station_SR105U/Symbols_Footprints/VST104.kicad_sym")(options "")(descr ""))
+)
