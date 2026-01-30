@@ -1,0 +1,178 @@
+(footprint "Qwiic_Connector"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.0381 -3.6957 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9937b5eb-2e14-4b05-911f-cdf2222f46d0")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Value" "Qwiic_Connector"
+		(at -0.0254 7.2517 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "11bce7e8-4438-4ed4-9960-f6611f0cddfa")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 8.7757 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca5d7f33-3956-484b-9321-dc9703d34c23")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 8.7757 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e35f85f4-339f-4c31-8c2f-e8101c1b7af4")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -7.6922 -2.0476)
+		(end 15.2908 5.6261)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0cd64070-52a5-493e-900b-083f573a940c")
+	)
+	(fp_text user "3V3"
+		(at 4.049123 -0.9525 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1bbc5cb8-855d-4475-ba70-c61b8d018078")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 6.491152 -0.9525 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3483bffb-1c1f-4f4c-8549-60870f696594")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SDA"
+		(at 1.492794 -0.9525 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4aa2df04-00b5-46c6-a78b-bd9332a01595")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Qwiic"
+		(at 9.1567 6.7945 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6db51849-8c3d-4658-9a19-9aee7006cfe7")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SCL"
+		(at -1.030877 -0.9525 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d310f99d-f14f-4f0b-8c91-458f2cc78819")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.0254 8.2804 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "41be0bc6-5dd4-4123-ac0d-d08fdfb92cb4")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "63b6df1c-25e0-4b0c-a6eb-f50475c47aa5")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "529bb5cc-9a90-46fd-abef-f26bdf3854ae")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "43284926-b077-4d8c-9c9a-603491d56505")
+	)
+	(pad "4" thru_hole rect
+		(at 7.62 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f3e58306-1104-4491-bed6-e1201656095c")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,114 @@
+(footprint "AMSAT_PTC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "F1"
+		(at 2.413 -1.0688 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4a009167-e8f0-4b61-ae27-e465bfec231e")
+		(effects
+			(font
+				(size 0.7874 0.7874)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "Polyfuse"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bb67350-2663-4c1b-a26e-c46b687a077a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0abb40ce-f767-41b4-ba89-f8dae0d347f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66b3c798-1a9b-4a1d-bd74-1e64aab1eb89")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.27 -4.826)
+		(end -1.27 -1.778)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbd56df6-d0a0-4212-bff1-60566f20bad9")
+	)
+	(fp_line
+		(start -1.27 -1.778)
+		(end 6.35 -1.778)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d4a60ca-a315-4b12-a091-72d528901370")
+	)
+	(fp_line
+		(start 6.35 -4.826)
+		(end -1.27 -4.826)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ba27af7-0f60-4b2e-ad38-d87dd7ede146")
+	)
+	(fp_line
+		(start 6.35 -1.778)
+		(end 6.35 -4.826)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d67f49be-fde9-4de7-8b66-11034a9a5082")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -3.302)
+		(size 1.8796 1.8796)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e3904e0c-e8d1-4073-8274-4871821881e9")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 -3.302)
+		(size 1.8796 1.8796)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c4de8e33-1919-4458-9c9f-f5c3b9e8b7ae")
+	)
+	(embedded_fonts no)
+)

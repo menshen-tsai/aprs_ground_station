@@ -1,0 +1,212 @@
+(footprint "BME280_Module"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.0254 -2.2098 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3c6a7f5c-ecaf-4467-9a78-8dbee5c9e943")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Value" "BME280"
+		(at 0.0127 12.4968 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0f857cba-5c21-437a-be5d-0bef2cd2741f")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 10.0965 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bae5358-5225-49c7-b62b-eb0218c471ca")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 10.0965 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4750ba0-88cc-4d13-a364-a514a898bc97")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3716 1.0414)
+		(end 9.3726 1.0414)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c929ccbc-0973-4598-bef6-3785fcf781fa")
+	)
+	(fp_rect
+		(start -1.405557 -1.3335)
+		(end 9.3472 11.06605)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e8fd1fdd-cf34-460d-9cfd-f728af269ec6")
+	)
+	(fp_circle
+		(center 6.3246 8.5471)
+		(end 8.22125 8.52605)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "437c1780-141c-43e1-b650-a4828c4a2e36")
+	)
+	(fp_text user "SCL"
+		(at 2.921 3.089124 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0221cb69-c3cd-4bda-9479-49ad8a6d7667")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 5.461 3.270552 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "42fc179e-653e-4e5e-974a-dffaa544d333")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "T/H/P 0x76"
+		(at 1.2319 10.7061 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5eceab48-7b56-4953-9633-6b7b1ff05978")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "VCC"
+		(at 8.001 3.1496 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "81f9f22a-2e99-4e02-84c0-15dc9295ba1a")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SDA"
+		(at 0.381 3.119362 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "83d968d4-19c8-4460-8836-38151f1b0d63")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "BME280"
+		(at -0.0381 10.8331 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b9116b09-d325-4518-b224-40fb2c73af5a")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0127 13.5255 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e42ff15a-8876-4f9a-be05-82cda8e3eacd")
+		(effects
+			(font
+				(size 0.6858 0.6858)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 7.62 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b4c489b0-f574-4bb3-adf9-f7360ac298fe")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1066317c-fba2-48b4-8ba6-8d329e3fcabd")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2809b9e7-f1ee-4872-b9ae-42e6d5ea83e4")
+	)
+	(pad "4" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a576b927-a348-4aed-bd8a-5274298d5e82")
+	)
+	(embedded_fonts no)
+)
