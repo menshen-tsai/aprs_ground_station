@@ -1742,6 +1742,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -6239,7 +6346,7 @@
 	)
 	(text "Audio Filter"
 		(exclude_from_sim no)
-		(at 91.694 87.376 0)
+		(at 92.456 112.268 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6290,6 +6397,12 @@
 		(uuid "7beacb03-0b3d-433e-b643-b7391ab401dc")
 	)
 	(junction
+		(at 29.21 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d426967-f147-410b-a49f-5cd04aeb4e75")
+	)
+	(junction
 		(at 76.2 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6318,6 +6431,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d033d83f-20cc-4d0c-b05b-229dffb1daef")
+	)
+	(junction
+		(at 82.55 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efd2f93a-ce4d-409d-8b14-462aac41518f")
 	)
 	(junction
 		(at 140.97 74.93)
@@ -6769,6 +6888,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 96.52) (xy 88.9 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05159074-af64-43e3-91f6-e323dba0b7e0")
+	)
+	(wire
+		(pts
 			(xy 149.86 74.93) (xy 173.99 74.93)
 		)
 		(stroke
@@ -7059,6 +7188,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 92.71) (xy 82.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32498aad-623f-47eb-9a0b-6fc88f1f56ea")
+	)
+	(wire
+		(pts
 			(xy 191.77 140.97) (xy 198.12 140.97)
 		)
 		(stroke
@@ -7259,6 +7398,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 92.71) (xy 29.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531b41be-8ad2-4072-a151-987277bb5c4c")
+	)
+	(wire
+		(pts
 			(xy 214.63 24.13) (xy 233.68 24.13)
 		)
 		(stroke
@@ -7419,7 +7568,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 96.52) (xy 40.64 96.52)
+			(xy 26.67 96.52) (xy 29.21 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7616,6 +7765,16 @@
 			(type default)
 		)
 		(uuid "9125d406-5362-4309-a74b-66999a2aaa30")
+	)
+	(wire
+		(pts
+			(xy 29.21 96.52) (xy 40.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9172d0bc-5d41-4ffc-8791-74b8e0bb9484")
 	)
 	(wire
 		(pts
@@ -8279,7 +8438,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 96.52) (xy 88.9 96.52)
+			(xy 73.66 96.52) (xy 82.55 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9965,6 +10124,73 @@
 			(project ""
 				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 29.21 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17a915df-a64b-4fa9-8d0c-81c04c7dc6eb")
+		(property "Reference" "TP1"
+			(at 31.75 88.1379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Audio_Out"
+			(at 31.75 90.6779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AMSAT:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 34.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 29.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a516949-bd65-439f-b8ca-74020a97a51f")
+		)
+		(instances
+			(project ""
+				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -12261,6 +12487,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 82.55 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5c82566-0d46-4ca0-b1eb-3c48d7f708c5")
+		(property "Reference" "TP2"
+			(at 85.09 88.1379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Filter_Out"
+			(at 85.09 90.6779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AMSAT:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e827483-bc2f-4e7e-9cd8-29d03a6c1c2c")
+		)
+		(instances
+			(project "Ground_Station_SR105U_20260104_ATTEN_SMD"
+				(path "/288fbf00-faaf-4744-be5e-5965d0ade413"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 106.68 0)
 		(mirror y)
@@ -13185,10 +13478,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f0c73f26-d903-463c-a151-57456fb352f8")
 		(property "Reference" "R4"
-			(at 43.18 90.17 90)
+			(at 39.116 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13196,7 +13488,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 43.18 92.71 90)
+			(at 42.926 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
